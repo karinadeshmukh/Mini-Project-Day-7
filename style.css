@@ -1,0 +1,82 @@
+/* Fonts and base */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #1a1a1a;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: #5a5a5a;
+}
+
+/* Product Section */
+.product-section {
+  padding: 4rem 2rem;
+  background-color: #fdf6f0;
+}
+
+.product-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product-img {
+  flex: 1 1 300px;
+  max-width: 400px;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.product-text {
+  flex: 1 1 300px;
+}
+
+.product-text h2 {
+  font-size: 2rem;
+  color: #d46f4d;
+  margin-bottom: 1rem;
+}
+
+.product-text p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background-color: #d46f4d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #b75536;
+}
